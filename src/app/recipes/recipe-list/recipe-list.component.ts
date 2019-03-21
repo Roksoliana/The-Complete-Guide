@@ -10,7 +10,7 @@ export class RecipeListComponent implements OnInit {
   recipes:Recipe[]=[
     new Recipe('A test recipe', 'This is a simply a test', 'https://pinchofyum.com/wp-content/uploads/Tofu-Lettuce-Wraps-Recipe.jpg'),
     new Recipe('A test recipe', 'This is a simply a test', 'https://pinchofyum.com/wp-content/uploads/Tofu-Lettuce-Wraps-Recipe.jpg')
-  ];
+  ]; 
   constructor() { }
 
   ngOnInit() {
